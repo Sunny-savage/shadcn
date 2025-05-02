@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import CardList from "@/components/CardList";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -17,14 +17,7 @@ import {
 import { Progress } from "@/components/ui/progress";
 import { BadgeCheck, Candy, Citrus, Shield } from "lucide-react";
 
-import {
-  Sheet,
-  SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
+import { Sheet, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import EditUser from "@/components/EditUser";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -177,8 +170,8 @@ const SingleUserPage = () => {
             </p>
           </div>
           <div className="bg-primary-foreground p-4 rounded-lg">
-          <h1 className="text-xl font-semibold">User Activity</h1>
-          <AppLineChart/>
+            <h1 className="text-xl font-semibold">User Activity</h1>
+            <AppLineChart />
           </div>
         </div>
       </div>
